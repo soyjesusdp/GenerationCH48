@@ -8,16 +8,9 @@ function NavButton({ href, text }) {
     </Link>
   );
 }
-<<<<<<< HEAD
 function Navbar({ links }) {
   console.log(links);
   const title = "Jesús Duerto";
-=======
-
-function Navbar({ links }) {
-  console.log(links);
-  const title = "Space App";
->>>>>>> 95ed620 (Se actualizan las carpetas)
 
   return (
     <nav>
