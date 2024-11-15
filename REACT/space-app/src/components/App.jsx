@@ -1,7 +1,7 @@
 import About from './about';
 import Apod from './Apod';
 import Astros from './Astros';
-import Navbar from './Navbar';
+import Navbar from './navbar';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
