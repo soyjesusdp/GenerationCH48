@@ -1,3 +1,5 @@
+/*!ABOUT STYLE*/
+
 .about-profilepicture {
     margin-top: 5rem;
     max-width: 20%;
@@ -29,4 +31,97 @@
 .about-instagramprofile:hover {
     color: gray;
     background-color: white;
+}
+
+/*!ASTRO STYLE*/
+
+.astro-container {
+    margin-top: 5rem;
+    background-color: white;
+    border-radius: 5rem;
+}
+
+.astro-img1 {
+    max-width: 30%;
+    border-radius: 100%;
+    margin-top: 3rem;
+}
+
+.astro-text {
+    color: grey;
+    padding: 3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/*!APOD STYLE*/
+
+.astronomy-card {
+    margin-top: 3rem;
+    background-color: #f9f9f9;
+    border-radius: 5rem;
+    padding: 2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.astronomy-image {
+    max-width: 30%;
+    border-radius: 100%;
+}
+
+.apod-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.2);
+    text-align: justify;
+}
+
+.astronomy-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.astronomy-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 2rem;
+    text-align: justify;
+}
+
+.apod-card-copy {
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: right;
+    color: #999;
+}
+
+.astronomy-date {
+    font-size: 1rem;
+    color: grey;
+    margin-bottom: 1.5rem;
+}
+
+/*!LOADING & ERROR STYLES*/
+
+.loading-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6f61;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.error-message {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: red;
+    margin-top: 2rem;
+    text-align: center;
 }

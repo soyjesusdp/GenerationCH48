@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 
 // Componente reutilizable para cada botón de navegación.
 function NavButton({ href, text }) {
-  // Devuelve un enlace estilizado con los props de destino y texto.
   return (
     <Link className="nav-button" to={href}>
       {text}

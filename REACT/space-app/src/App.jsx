@@ -7,10 +7,9 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   const links = [
-    { href: "/astros", text: "Home" },
     { href: "/astros", text: "Astros" },
     { href: "/apod", text: "Apod" },
-    { href: "/about", text: "About" }
+    { href: "/about", text: "About me" }
   ];
 
   return (
