@@ -8,10 +8,9 @@ function NavButton({ href, text }) {
     </Link>
   );
 }
-
 function Navbar({ links }) {
   console.log(links);
-  const title = "Space App";
+  const title = "Jesús Duerto";
 
   return (
     <nav>
