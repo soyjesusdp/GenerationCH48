@@ -2,7 +2,7 @@ import './App.css';
 import About from './about';
 import Apod from './apod';
 import Astros from './astros';
-import Navbar from './navbar';
+import Navbar from './Navbar';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
