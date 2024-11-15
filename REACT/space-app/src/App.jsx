@@ -1,8 +1,8 @@
 import './App.css';
 import About from './components/about';
 import Apod from './components/apod';
-import Astros from './components/astros';
-import Navbar from './components/navbar';
+import Astros from './components/Astros';
+import Navbar from './components/Navbar';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
