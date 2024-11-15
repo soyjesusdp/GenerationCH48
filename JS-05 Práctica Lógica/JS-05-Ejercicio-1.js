@@ -10,3 +10,5 @@ let favoriteMovies = prompt("Please enter a list of your favorite movies, separa
 console.log(`Username: ${username}`);
 console.log(`Age: ${age}`);
 console.log(`One of my favorite movies is ${favoriteMovies[0]}`);
+
+//*Ejercicio número 5

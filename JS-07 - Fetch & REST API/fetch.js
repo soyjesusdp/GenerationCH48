@@ -67,3 +67,5 @@ document.getElementById('next-btn').addEventListener('click', async () => {
         displayPokemonCard(pokemon);
     }
 });
+
+//¿Quien es ese pokemon?

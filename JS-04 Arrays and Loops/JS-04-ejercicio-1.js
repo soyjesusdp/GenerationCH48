@@ -9,6 +9,8 @@ const sumResistance1 = [
     3
 ];
 
+//!Comentario
+
 const totalResistance1 = sumResistance1.reduce((acumulador, valoractual) => acumulador + Math.abs(valoractual), 0);
 console.log(totalResistance1);
 
