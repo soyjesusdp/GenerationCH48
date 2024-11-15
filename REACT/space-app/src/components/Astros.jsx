@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import CircularProgress from '@mui/material/CircularProgress'; // Importación de CircularProgress
-import './astros.css';
+import './Style.css';
 
 function AstroCard({ name, craft }) {
   return (

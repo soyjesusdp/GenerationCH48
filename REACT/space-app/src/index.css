@@ -9,8 +9,10 @@
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+.rounded-favicon {
+  border-radius: 50%;
 }
 
 a {
