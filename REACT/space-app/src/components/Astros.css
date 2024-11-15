@@ -1,0 +1,32 @@
+.about-profilepicture {
+    margin-top: 5rem;
+    max-width: 20%;
+    border-radius: 100%;
+    box-shadow: 0rem 0rem 1rem black;
+}
+
+.about-textprofile {
+    text-align: justify;
+}
+
+.about-instagramprofile-center {
+    margin-top: 3rem;
+}
+
+.about-instagramprofile {
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+    border-radius: 30px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.about-instagramprofile:hover {
+    color: gray;
+    background-color: white;
+}

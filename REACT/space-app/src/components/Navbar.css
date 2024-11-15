@@ -1,7 +1,40 @@
-h1 {
-    font-size: 2.5rem;
-    margin: 60px;
-    background: -webkit-linear-gradient(#ef0000, #ffffff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-};
+/* Estilos generales para la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espacia título y enlaces */
+    align-items: center; /* Centra los elementos verticalmente */
+    padding: 1rem 2rem; /* Espaciado interno */
+    background-color: #ffffff; /* Color de fondo */
+    color: grey; /* Color del texto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para profundidad */
+    border-radius: 30rem;
+  }
+  
+  /* Estilos del contenedor del título */
+  .navbar-title h1 {
+    font-size: 1.5rem;
+    margin: 0; /* Elimina márgenes por defecto */
+  }
+  
+  /* Contenedor de los enlaces de navegación */
+  .navbar-links {
+    display: flex;
+    gap: 1rem; /* Espacio entre enlaces */
+  }
+  
+  /* Botones de navegación */
+  .nav-button {
+    text-decoration: none; /* Elimina subrayado */
+    color: grey; /* Color del texto */
+    padding: 0.5rem 1rem; /* Espaciado interno */
+    border: 2px solid transparent; /* Borde transparente para efecto hover */
+    border-radius: 4rem; /* Esquinas redondeadas */
+    transition: all 0.3s ease; /* Transición para hover */
+  }
+  
+  /* Efecto hover para los botones */
+  .nav-button:hover {
+    background-color: grey; /* Color de fondo al pasar el cursor */
+    color: #c2c2c2; /* Color del texto en hover */
+  }
+  
