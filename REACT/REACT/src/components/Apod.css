@@ -1,0 +1,63 @@
+/* Estilos generales para el contenedor principal */
+.apod-centercard {
+    text-align: center;
+}
+
+.apod-container {
+    min-height: 100vh;
+    background-color: #2d2d36;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la tarjeta */
+.apod-card {
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    padding: 20px;
+}
+
+/* Título de la tarjeta */
+.apod-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Fecha de la tarjeta */
+.apod-card-date {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Imagen de la tarjeta */
+.apod-card-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+/* Descripción de la tarjeta */
+.apod-card-description {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Derechos de autor */
+.apod-card-copy {
+    font-size: 12px;
+    color: white;
+    font-style: italic;
+}
+
+/* Estilos para el texto de carga */
+.apod-container p {
+    font-size: 18px;
+    color: white
+}
