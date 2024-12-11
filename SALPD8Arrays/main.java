@@ -2,9 +2,9 @@ package SALPD8Arrays;
 
 public class main {
 
-    public static void main(String[] args) {
+    public static void Main(String[] args) {
 
-        int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        int[] numeros = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
         System.out.println("Array original:");
         for (int i = 0; i < numeros.length; i++) {
@@ -38,11 +38,12 @@ public class main {
         if (numero <= 1) {
             return false;
         }
-        for (int i = 2; i <= Math.sqrt(numero); i++) {
+        for (int i = 2; i <= Math.sqrt(numero); i++)
             if (numero % i == 0) {
                 return false;
+            } else {
+                return true;
             }
-        }
-        return true;
-    }
+
+    }
 }
